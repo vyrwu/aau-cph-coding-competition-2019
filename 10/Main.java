@@ -3,6 +3,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+//Case 10 Binary Search Tree: Lowest Common Ancestor
+//You are given the elements of a binary search tree (BST) and two values v1 and v2. First, you need
+//        to create the BST, the you should print the lowest common ancestor (LCA) of v1 and v2 in the BST.
+//        For example, in the diagram above, the lowest common ancestor of the nodes 4 and 6 is the node
+//        3, which is the lowest node that has nodes 4 and 6 as descendants.
 public class Main {
     public static void main(String[] args) {
         FastReader fr = new FastReader();

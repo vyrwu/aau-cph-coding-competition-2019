@@ -3,8 +3,17 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// Use StringBuffer for String manipulation (append, insert, reverse, delete)
-//
+//Case 4 Halloween Sale
+//Usually, all games are sold at the same price, p euros. However, they are planning to have the
+//        seasonal Halloween Sale next month in which you can buy games at a cheaper price. Specifically,
+//        the first game you buy during the sale will be sold at p euros, but every subsequent game you buy
+//        will be sold at exactly d euros less than the cost of the previous one you bought. This will continue
+//        until the cost becomes less than or equal to m euros, after which every game you buy will cost m
+//        euros each.
+//        For example, if p = 20, d = 3, and m = 6, then the following are the costs of the first 11 games you
+//        buy, in order:
+//        20, 17, 14, 11, 8, 6, 6, 6, 6, 6, 6
+//        You have euros s in your Mist wallet. How many games can you buy during the Halloween Sale?
 public class Main {
     public static void main(String[] args) {
         FastReader fr = new FastReader();

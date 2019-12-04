@@ -4,8 +4,14 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-// Use StringBuffer for String manipulation (append, insert, reverse, delete)
-//
+//Case 8 Jesse and Cookies
+//Jesse loves cookies. He wants the sweetness of all his cookies to be greater than value K. To do
+//        this, Jesse repeatedly mixes two cookies with the least sweetness. He creates a special combined
+//        cookie with:
+//        sweetness = (1x Least sweet cookie + 2x 2nd least sweet cookie).
+//        He repeats this procedure until all the cookies in his collection have a sweetness ≥ K.
+//        You are given Jesse's cookies. Print the number of operations required to give the cookies a
+//        sweetness ≥ K. Print -1 if this isn't possible.
 public class Main {
     public static void main(String[] args) {
         FastReader fr = new FastReader();
